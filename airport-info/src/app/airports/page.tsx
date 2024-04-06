@@ -1,5 +1,5 @@
 export default function Airports() {
     return (
-        <div>Hell From /airports</div>
+        <div>Hello From /airports</div>
     );
 }
