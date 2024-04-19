@@ -1,4 +1,5 @@
 import NavBar from "@/components/NavBar";
+//Why am I getting an error for above? This was pulled straight from the provided files no changes made. 
 import Grid from '@mui/material/Unstable_Grid2';
 
 import type { Metadata } from "next";
