@@ -26,7 +26,7 @@ function NavBar() {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
     const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
 
-    const handleNavigate = (nav_path) => {
+    const handleNavigate = (nav_path: string) => {
         router.push(nav_path);
     }
     const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
